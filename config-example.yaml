@@ -40,6 +40,9 @@ grpc_listen_addr: 127.0.0.1:50443
 # are doing.
 grpc_allow_insecure: false
 
+
+private_key_path: /etc/headscale/private.key
+
 # The Noise section includes specific configuration for the
 # TS2021 Noise protocol
 noise:
